@@ -11,7 +11,14 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
- 
+
+/**
+ * 
+ * @author Kilnam.Kim
+ * @Reference http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/
+ *
+ */
+
 @SpringBootApplication
 @EnableSwagger2
 @ComponentScan("hello")
